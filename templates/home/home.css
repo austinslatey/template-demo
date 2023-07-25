@@ -1,41 +1,20 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0;
 }
 
-/* Navigation styles */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #f0f0f0;
-}
+/* Nav */
 
-.brand-name {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.brand-intro {
-    font-size: 14px;
-    color: gray;
-}
-
-.search-bar {
-    display: flex;
-    align-items: center;
-}
-
-.search-btn {
-    margin-left: 10px;
-    padding: 5px 10px;
+.btn-square {
+    height: 70px; 
+    width: 70px;
 }
 
 .btn-circle {
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 
 /* Sidebar */
