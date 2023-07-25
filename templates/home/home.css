@@ -4,86 +4,25 @@ body {
     padding: 0;
 }
 
-/* Nav */
+/* Buttons */
 
 .btn-square {
-    height: 70px; 
-    width: 70px;
+    height: 60px; 
+    width: 60px;
 }
 
 .btn-circle {
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
-/* Sidebar */
-.sidebar {
-    position: relative;
-    text-align: center;
-    width: 10%;
-    padding: 10px;
-    height: 800px;
+.btn-sidebar {
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px
 }
 
-/* Intro Container styles */
-.intro-container {
-    display: flex;
-    padding: 10px;
-    /* Account for the width of the sidebar */
-}
-
-.pfp-block {
-    width: 30%;
-}
-
-.pfp {
-    padding: 10px;
-
-}
-
-.earnings-block,
-.user-utils {
-    width: 30%;
-}
-
-.stream-sales,
-.tracked-earnings {
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-/* User Utils styles */
-.user-utils {
-    display: flex;
-    flex-direction: column;
-}
-
-.local-library-storage {
-    padding: 10px;
-    background-color: lightgray;
-    height: 200px;
-    overflow-y: auto;
-}
-
-
-.watermark {
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.detected-platforms,
-.song-detection {
-    padding: 10px;
-    background-color: lightgray;
-    margin-bottom: 10px;
-}
-
-.category-container {
-    width: 25%;
-}
-
-.detected-usage {
-    padding: 10px;
-    background-color: lightgray;
+.text-large {
+    font-size: 100px;
 }

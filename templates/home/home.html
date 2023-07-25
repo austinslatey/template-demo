@@ -10,21 +10,21 @@
 </head>
 
 <body>
-    <nav class="container-fluid p-2 bg-dark text-light">
-        <div class="row align-items-center" style="height: 100px;">
+    <nav class="container-fluid pb-3 bg-dark text-light">
+        <div class="row align-items-center" style="height: 80px;">
             <div class="col-md-2"> <!-- Adjust the column size accordingly -->
-                <div class="nav-logos">
-                    <div class="text-secondary">
-                        <p class="brand-name">Crypto loops</p>
-                        <p class="brand-intro">BLOCKCHAIN AUDIO LOOPS</p>
-                        <div class="brand-img">img goes here</div>
-                    </div>
+                <div class="text-secondary">
+                    <p class="brand-name">Crypto loops</p>
+                    <p class="brand-intro">BLOCKCHAIN AUDIO LOOPS</p>
+                    <div class="brand-img">img goes here</div>
                 </div>
             </div>
-            <div class="col-md-1 h-100 d-flex align-items-center justify-content-center border-bottom"> <!-- Adjust the column size accordingly -->
+            <div class="col-md-1 h-100 d-flex align-items-center justify-content-center border-bottom">
+                <!-- Adjust the column size accordingly -->
                 <button class="btn-square btn btn-secondary"></button>
             </div>
-            <div class="col-md-5 h-100 d-flex align-items-center border-bottom border-left"> <!-- Adjust the column size accordingly -->
+            <div class="col-md-5 h-100 d-flex align-items-center border-bottom border-left">
+                <!-- Adjust the column size accordingly -->
                 <div class="input-group search-bar">
                     <input type="text" class="form-control" placeholder="SEARCH BAR" aria-label="SEARCH BAR"
                         aria-describedby="basic-addon2">
@@ -39,127 +39,125 @@
                 <button class="btn-square btn btn-secondary"></button>
             </div>
             <div class="col-md-2 h-100 d-flex align-items-center justify-content-between border-bottom border-left">
-                <button class="tool-1-btn btn btn-secondary"></button>
-                <button class="sign-in-btn btn btn-circle btn-secondary"></button>
+                <button class="btn btn-secondary"></button>
+                <button class="btn btn-circle btn-secondary"></button>
             </div>
         </div>
     </nav>
-    <div class="container-fluid">
+    <main class="container-fluid bg-dark">
         <div class="row">
-            <div class="col-md-2 bg-dark p-3">
-                <div class="watermark-api text-center text-light">
-                    <h3 class="mb-5" style="font-size: 30px;">SIDEBAR</h3>
-                    <p class="mt-5" style="font-size: 40px;">-- </br>WATERMARK API GOES HERE --</p>
-                    <p class="mb-5 mt-5 file-reader" style="font-size: 30px;">??? Not Known ???</p>
-                    <p class="mb-5 text-light" style="font-size: 90px;">+</p>
-                    <p class="mb-5 text-light" style="font-size: 90px;">+</p>
-                </div>
+            <div class="col-md-2 d-flex flex-column p-3 text-light align-items-center justify-content-center">
+                <div class="mb-5 btn btn-secondary btn-sidebar d-flex align-items-center justify-content-center">
+                    WATERMARK API GOES HERE</div>
+                <div class="mb-5 btn btn-secondary btn-sidebar d-flex align-items-center justify-content-center">??? Not
+                    Known ???</div>
+                <div
+                    class="mb-5 btn btn-secondary btn-sidebar d-flex align-items-center justify-content-center text-large">
+                    +</div>
+                <div
+                    class="mb-5 btn btn-secondary btn-sidebar d-flex align-items-center justify-content-center text-large">
+                    +</div>
             </div>
-
             <div class="col-md-10 p-3">
-                <div class="intro-container d-flex bg-dark">
-                    <div class="pfp-block bg-dark m-2 p-2" style="width: 30%;">
-                        <div class="pfp left-block">
-                            <h3 class="text-center text-light">PFP</h3>
-                        </div>
-                    </div>
-                    <div class="earnings-block bg-dark mx-5 p-2 m-2" style="width: 30%;">
-                        <h5 class="text-center bg-light text-dark">TRANSACTIONS & ROYALTIES</h5>
-                        <div class="streaming-sales-container bg-dark text-center">
-                            <div
-                                class="stream-sales bg-secondary text-light p-3 mb-3 text-center border-bottom border-left border-right">
-                                <!-- -- NUM Of STREAMS GO HERE -- -->
-                                <h2>-- AMT Of STREAMS = $00000 --</h2>
-                                <h4>SALES & STREAMS</h4>
-                            </div>
-                            <div
-                                class="tracked-earnings bg-secondary p-3 text-light text-center border-bottom border-left border-right">
-                                <h3>TRACKED EARNINGS</h3>
-                                <!-- -- TRACKED EARNINGS GO HERE -- -->
-                                <h2>-- TRACKED EARNINGS GO HERE --</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="user-utils text-center" style="width: 30%;">
-                        <div class="d-flex justify-content-center p-2 align-items-center">
-                            <h5 class="text-center bg-light text-dark m-2 p-1">NOTIFICATIONS 1 & 2</h5>
-                            <h5 class="text-center bg-light text-dark m-2 p-1">USER DROPDOWN</h5>
-                        </div>
-
-                        <div class="local-library-storage scrollable bg-secondary border-bottom border-left border-right"
-                            style="height: 200px;">
-                            <!-- DISPLAY ANY PREVIOUSLY USED FILES HERE -->
-                            <!-- ALLOW USER TO PLAY THE STORED FILES -->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="main-container bg-dark text-light p-3">
-                    <h2 class="text-center border-bottom">MAIN AREA</h2>
+                <div class="container-fluid bg-dark">
                     <div class="row">
-
                         <div class="col-md-4">
-                            <!-- Your existing content goes here -->
-                            <!-- This column will take up 4 out of 12 columns -->
-                            <div class="watermark left">
-                                <!-- this sections is placed above the two containers below and spans across the entire container -->
-                                <h3 class="loop-print-logo">LOOP PRINT LOGO GOES HERE</h3>
-                                <button class="find-file btn btn-primary"> WATERMARK </button>
-                                <button class="track-watermark btn btn-primary">TRACK & REPORT</button>
+                            <h3 class="text-center text-light border h-100">PFP</h3>
+                        </div>
+                        <div class="col-md-4">
+                            <h5 class="text-center bg-light text-dark">TRANSACTIONS & ROYALTIES</h5>
+                            <div class="bg-dark text-center">
+                                <div
+                                    class="bg-secondary text-light p-3 text-center border-bottom border-left border-right">
+                                    <!-- -- NUM Of STREAMS GO HERE -- -->
+                                    <h2>-- AMT Of STREAMS = $00000 --</h2>
+                                    <h4>SALES & STREAMS</h4>
+                                </div>
+                                <div
+                                    class="tracked-earnings bg-secondary p-3 text-light text-center border-bottom border-left border-right">
+                                    <h3>TRACKED EARNINGS</h3>
+                                    <!-- -- TRACKED EARNINGS GO HERE -- -->
+                                    <h2>--TRACKED EARNINGS GO HERE--</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="d-flex justify-content-center p-2 align-items-center">
+                                <h5 class="text-center bg-light text-dark m-2 p-1">NOTIFICATIONS 1 & 2</h5>
+                                <h5 class="text-center bg-light text-dark m-2 p-1">USER DROPDOWN</h5>
+                            </div>
 
-                                <div class="detected-platforms bg-dark p-4">
-                                    <!-- Your existing content goes here -->
-                                    <div class="row border-right">
-                                        <div class="col-md-6">
-                                            <h4 class>DETECTED PLATFORMS</h4>
-                                            <ul class="platforms scrollable">
-                                                <!-- display all intended icons where detected else display blank container for now -->
-                                                <li>Apple MUSIC</li>
-                                                <li>Spotify</li>
-                                                <li>YouTube</li>
-                                                <li>SoundCloud</li>
-                                                <li>NETFLIX</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <h4>DETECTED SONG/LOOP</h4>
-                                            <ul class="detected scrollable">
-                                                <!-- map any potential detections here, else display placeholder items -->
-                                                <!-- RENDER EACH DETECTED SONG IMG(left) -|- NAME & ARTIST(right) AS A LIST -->
-                                                <li>Artist && Track</li>
-                                                <li>Artist && Track</li>
-                                                <li>Artist && Track</li>
-                                                <li>Artist && Track</li>
-                                                <li>Artist && Track</li>
-                                            </ul>
+                            <div class="local-library-storage scrollable bg-secondary border-bottom border-left border-right"
+                                style="height: 200px;">
+                                <!-- DISPLAY ANY PREVIOUSLY USED FILES HERE -->
+                                <!-- ALLOW USER TO PLAY THE STORED FILES -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-container bg-dark text-light p-3">
+                        <h2 class="text-center border-bottom">MAIN AREA</h2>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <!-- Your existing content goes here -->
+                                <!-- This column will take up 4 out of 12 columns -->
+                                <div class="watermark left">
+                                    <!-- this sections is placed above the two containers below and spans across the entire container -->
+                                    <h3 class="loop-print-logo">LOOP PRINT LOGO GOES HERE</h3>
+                                    <button class="find-file btn btn-primary"> WATERMARK </button>
+                                    <button class="track-watermark btn btn-primary">TRACK & REPORT</button>
+
+                                    <div class="detected-platforms bg-dark p-4">
+                                        <!-- Your existing content goes here -->
+                                        <div class="row border-right">
+                                            <div class="col-md-6">
+                                                <h4 class>DETECTED PLATFORMS</h4>
+                                                <ul class="platforms scrollable">
+                                                    <!-- display all intended icons where detected else display blank container for now -->
+                                                    <li>Apple MUSIC</li>
+                                                    <li>Spotify</li>
+                                                    <li>YouTube</li>
+                                                    <li>SoundCloud</li>
+                                                    <li>NETFLIX</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h4>DETECTED SONG/LOOP</h4>
+                                                <ul class="detected scrollable">
+                                                    <!-- map any potential detections here, else display placeholder items -->
+                                                    <!-- RENDER EACH DETECTED SONG IMG(left) -|- NAME & ARTIST(right) AS A LIST -->
+                                                    <li>Artist && Track</li>
+                                                    <li>Artist && Track</li>
+                                                    <li>Artist && Track</li>
+                                                    <li>Artist && Track</li>
+                                                    <li>Artist && Track</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="col-md-8">
-                            <!-- Your detection UI goes here -->
-                            <!-- This column will take up 8 out of 12 columns -->
-                            <div class="track-and-report card bg-dark text-secondary">
-                                <h1 class="text-center border-bottom">TRACK & REPORT</h1>
-                                <div class="main-detection-container d-flex align-items-start">
-                                    <img src="./placeholder.png" alt="track-img" class="mr-3">
-                                    <div>
-                                        <h4>DETECTED SONG/LOOP</h4>
-                                        <h2>AUDIO FILE NAME</h2>
-                                        <div class="track-info border p-2 mt-auto">
-                                            <ul class="">
-                                                <li>TRACK/STEM TITLE</li>
-                                                <li>ARTIST NAME(S)</li>
-                                                <li>PRODUCERS + SPLITS</li>
-                                                <li>WRITERS + SPLITS</li>
-                                                <li>ADMIN RIGHTS (NAMES)</li>
-                                                <li>LICENSE TYPE</li>
-                                            </ul>
+                            <div class="col-md-8">
+                                <!-- Your detection UI goes here -->
+                                <!-- This column will take up 8 out of 12 columns -->
+                                <div class="track-and-report card bg-dark text-secondary">
+                                    <h1 class="text-center border-bottom">TRACK & REPORT</h1>
+                                    <div class="main-detection-container d-flex align-items-start">
+                                        <img src="./placeholder.png" alt="track-img" class="mr-3">
+                                        <div>
+                                            <h4>DETECTED SONG/LOOP</h4>
+                                            <h2>AUDIO FILE NAME</h2>
+                                            <div class="track-info border p-2 mt-auto">
+                                                <ul class="">
+                                                    <li>TRACK/STEM TITLE</li>
+                                                    <li>ARTIST NAME(S)</li>
+                                                    <li>PRODUCERS + SPLITS</li>
+                                                    <li>WRITERS + SPLITS</li>
+                                                    <li>ADMIN RIGHTS (NAMES)</li>
+                                                    <li>LICENSE TYPE</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -167,7 +165,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 </body>
 
 </html>
