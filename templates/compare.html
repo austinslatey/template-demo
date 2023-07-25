@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Comparison</title>
+</head>
+<body>
+    <button onclick="location.href='/analyze'">Go to Audio Analysis</button>
+    <button onclick="location.href='/embed'">Go to Watermark Embedding</button>
+    <button onclick="location.href='/compare'">Compare Another Audio</button>
+
+    <h1>Audio Comparison</h1>
+
+    {% if result %}
+        <p>Comparison Result: {{ result }}</p>
+    {% endif %}
+    
+    <form action="/compare" method="post" enctype="multipart/form-data">
+        <input type="file" name="original_file" accept=".wav" required><br><br>
+        <input type="file" name="watermarked_file" accept=".wav" required><br><br>
+        <input type="submit" value="Compare Audio">
+    </form>
+    
+</body>
+</html>

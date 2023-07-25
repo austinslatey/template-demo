@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.brand-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.brand-intro {
+    font-size: 14px;
+    color: gray;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+
+.btn-circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+/* Sidebar */
+.sidebar {
+    position: relative;
+    text-align: center;
+    width: 10%;
+    padding: 10px;
+    height: 800px;
+}
+
+/* Intro Container styles */
+.intro-container {
+    display: flex;
+    padding: 10px;
+    /* Account for the width of the sidebar */
+}
+
+.pfp-block {
+    width: 30%;
+}
+
+.pfp {
+    padding: 10px;
+
+}
+
+.earnings-block,
+.user-utils {
+    width: 30%;
+}
+
+.stream-sales,
+.tracked-earnings {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* User Utils styles */
+.user-utils {
+    display: flex;
+    flex-direction: column;
+}
+
+.local-library-storage {
+    padding: 10px;
+    background-color: lightgray;
+    height: 200px;
+    overflow-y: auto;
+}
+
+
+.watermark {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.detected-platforms,
+.song-detection {
+    padding: 10px;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.category-container {
+    width: 25%;
+}
+
+.detected-usage {
+    padding: 10px;
+    background-color: lightgray;
+}

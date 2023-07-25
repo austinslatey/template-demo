@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Watermark Embedding</title>
+</head>
+<body>
+    <button onclick="location.href='/analyze'">Go to Audio Analysis</button>
+    <button onclick="location.href='/embed'">Embed Another Watermark</button>
+    <button onclick="location.href='/compare'">Go to Audio Comparison</button>
+    <h1>Watermark Embedding</h1>
+
+    {% if watermarked_audio %}
+        <p>Watermarked Audio File: {{ watermarked_audio }}</p>
+    {% endif %}
+    
+    <form action="/embed" method="post" enctype="multipart/form-data">
+        <input type="file" name="audio_file" accept=".wav, .mp3" required><br><br>
+        <label for="artist_name">Artist Name:</label>
+        <input type="text" name="artist_name" required><br><br>
+        <label for="track_name">Track Name:</label>
+        <input type="text" name="track_name" required><br><br>
+        <input type="submit" value="Embed Watermark">
+    </form>
+
+</body>
+</html>
